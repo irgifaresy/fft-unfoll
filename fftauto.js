@@ -15,28 +15,28 @@ const inquirer = require('inquirer');
 const User = [
 	{
 		type:'input',
-		name:'username',
+		name:'irgiachmad_f',
 		message:'Insert Username'
 	},
 	{
 		type:'password',
-		name:'password',
+		name:'12Irgia7x',
 		message:'Insert Password',
 		mask:'*'
 	},
 	{
 		type:'input',
-		name:'target',
+		name:'yang.terdalam',
 		message:'Insert Username Target (Without @[at])'
 	},
 	{
 		type:'input',
-		name:'text',
+		name:'fllbck dong :D',
 		message:'Insert Text Comment'
 	},
 	{
 		type:'input',
-		name:'sleep',
+		name:'40000',
 		message:'Insert Sleep (In MiliSeconds)',
 		validate: function(value){
 			value = value.match(/[0-9]/);
